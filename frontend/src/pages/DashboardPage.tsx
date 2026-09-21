@@ -25,7 +25,7 @@ function SummaryCard(props: {
   );
 }
 export default function DashboardPage() {
-  const balance = calculateBalance(summary.income, summary.expense);
+  const balance = calculateBalance(summary.income, summary.expense); // принимаем доходы и расходы и возвращаем разницу
 
   return (
     <Stack>
